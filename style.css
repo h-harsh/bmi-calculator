@@ -1,0 +1,39 @@
+.cont{
+    text-align: center;
+}
+.container{
+    background-image: linear-gradient(rgb(0, 162, 255), white);
+    display: inline-block;
+    padding: 40px;
+    border: 1px solid navy;
+    border-radius: 5px;
+    box-shadow: 10px navy;
+    color: black;
+}
+.btn{
+    margin-top: 10px;
+}
+.resetbtn{
+    background-color: blue';
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: inline;
+    padding: 5px 7px;
+    box-shadow: 3px 3px rgb(22, 20, 20);
+    cursor: pointer;
+}
+.just{
+    display: inline-flex;
+
+}
+.details{
+    display: flexbox;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.displayva{
+    display: block;
+    margin-top: 2px;
+}

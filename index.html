@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="container">
+            <div class="details">
+                <h2 class="text"> Your Weight (kg)</h2>
+                <div class="just">    
+                    <p>30</p>
+                    <input id="weightval" type="range" min="30" max="140" step="1" value="0">
+                    <p>140</p> </br>
+                </div> 
+                <p id="displayval" class="displayva"> </p>
+                <h2> Your Height (cm)</h2> 
+                <div class="just">
+                    <p>120</p>
+                    <input id="heightval" type="range" min="120" max="240" value="0">
+                    <p>240</p> </br>
+                </div>
+                <p id="displayval1" class="displayva"> </p>                                              
+            </div>
+            <div class="btn">
+                <input id="mainbutton" type="submit" value="Calculate bmi">
+            </div>
+            <div class="results ano">
+                <p id="resultp">Calculate your BMI</p>
+            </div>
+            <div class="reset ano">
+                <p id="rbutton" class="resetbtn"> Reset</p>
+            </div>
+        </div>
+    </div>    
+</body>
+<script src="./script.js"> </script>
+</html>
